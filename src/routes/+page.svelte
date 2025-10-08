@@ -100,5 +100,14 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Be part of California's future"
+	subtitle="Join us in building a new city"
+	description="This is your opportunity to shape Solano County's transformation. With 53,000 jobs, affordable starter homes, and $16 billion in annual impact, we're creating a place where families can thrive and the California Dream returns. Express your interest today and help us build a community that says yes to your future."
+	imageSrc="/generated/image-a-happy-diverse-family-of-different-ages.webp"
+	callsToAction={[
+		{ href: "/contact", label: "Express interest", variant: "primary" },
+		{ href: "/about", label: "Learn about the vision", variant: "secondary" }
+	]}
+/>
