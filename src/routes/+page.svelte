@@ -6,16 +6,27 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Building the future of California"
+	subtitle="A new city in Solano County creating 53,000 jobs and $16 billion in annual economic impact, restoring the California Dream for the next generation."
+	imageSrc="/generated/image-a-modern-office-space-with-a-variety-of-.webp"
+	callsToAction={[
+		{ href: "/contact", label: "Learn more" },
+		{ href: "/about", label: "Our vision" }
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Partnering with industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/northropgrumman.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/boeing.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/lockheedmartin.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/rtx.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
