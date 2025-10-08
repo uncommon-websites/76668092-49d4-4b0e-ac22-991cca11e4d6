@@ -65,24 +65,38 @@
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Building California's future"
+	subtitle="A comprehensive vision that addresses affordability, economic opportunity, and sustainable growth for Solano County"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "53,000 permanent jobs",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Create a 26% increase in Solano County employment through defense, aerospace, advanced manufacturing, and agricultural technologies. By 2040, generate $16.1 billion in annual economic impact while providing career opportunities that keep families local."
 		},
 		{
-			title: "Data Analysis",
+			title: "Affordable homeownership",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Restore the California Dream with binding commitments to build starter homes and integrate all housing types in walkable neighborhoods. End the affordability crisis forcing 81% of Solano parents to watch their children leave the county."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Travis AFB partnership",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Located 4+ miles from Travis Air Force Base, entirely outside noise and crash zones, with official base support. Strengthen national security through advanced manufacturing jobs, affordable airmen housing, and military spouse employment opportunities."
+		},
+		{
+			title: "Agricultural innovation",
+			description:
+				"Transform 17,500 acres of non-prime grazing land generating $6 million annually into greenhouses and vertical farms producing $10-40 million per facility. Increase total agricultural output while protecting Solano's prime farmland that generates 98% of county revenue."
+		},
+		{
+			title: "Sustainable infrastructure",
+			description:
+				"Full water recycling with aquifer recharge, clean energy systems, and fire-resistant building standards create climate-resilient living. Reduce vehicle miles through walkable neighborhoods where children walk to school and seniors maintain independence."
+		},
+		{
+			title: "Community-first development",
+			description:
+				"Forty-year gradual development plan with $2.39 billion annual construction impact injecting $5,328 per Solano resident. Binding agreements protect existing communities while creating shared prosperity through local job creation and mixed-use neighborhoods."
 		}
 	]}
 />
